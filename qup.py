@@ -118,7 +118,7 @@ while 1:
                             attribute_value = getattr(SendSms, attribute)
                             if callable(attribute_value):
                                 if attribute.startswith('__') == False:
-                                    if sms.adet == kere:
+                                    if sms.adet >= kere:
                                         break
                                     exec("sms."+attribute+"()")
                                     sleep(aralik)
