@@ -114,7 +114,7 @@ while 1:
             sms = SendSms(i, mail)
             kere += 1
             if isinstance(kere, int):
-                    while sms.adet == kere:
+                    while sms.adet <= kere:
                         for attribute in dir(SendSms):
                             attribute_value = getattr(SendSms, attribute)
                             if callable(attribute_value):
