@@ -12,7 +12,7 @@
 git clone https://github.com/umitkoc0/Sms.git
 cd Sms
 pip3 install -r requirements.txt
-python3 pup.py
+python3 qup.py
 ```
 
 
